@@ -1,0 +1,184 @@
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+ }
+ 
+html,body {
+  font-family: Arial, Helvetica, sans-serif;
+background: #4B4453;
+}
+
+
+* {
+  padding: 0;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+
+
+/* Set a style for all buttons */
+button {
+ background-color: #f44336;
+ color: white;
+ padding: 14px 20px;
+ margin: 8px 0;
+ border: none;
+ cursor: pointer;
+ width: 100%;
+ opacity: 0.9;
+}
+button :hover{
+  background-color: #2B32B2;
+}
+.box1{
+      
+     margin:auto;
+     padding:auto;
+   
+     height: 30px;
+     border: 1px solid #ffffff;
+     border-top-right-radius: 30px;
+     border-bottom-left-radius: 30px;
+     justify-content: center;
+     color:white;
+     font-family: 'Cute Font', cursive;
+
+}
+
+button:hover {
+ opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+ padding: 14px 20px;
+ background-color: #f44336;
+}
+
+form h1{
+  text-align:center;
+  text-transform:uppercase;
+}
+.ui{
+  width:100%;
+}
+.box2{
+      margin:auto !important;
+      padding:auto !important;
+      display:flex;
+      justify-content: center;
+         width:100%;
+ 
+
+ 
+}
+
+form p{
+  text-align: center;
+  padding: auto;
+  margin: auto;
+}
+
+
+form{
+  padding: 10px;
+  margin: 5px;
+  overflow: hidden;
+  text-align: center;
+  background: #338BA7;
+ border-radius: 25px;
+  box-shadow: 1px 6px 8px rgba(0, 0, 0, 1);
+ 
+}
+
+label{
+  color: white;
+}
+.box3{
+  margin:auto !important;
+  padding:auto !important;
+ width:100%;
+}
+form input[type=file]{
+  box-sizing: border-box;
+  border:2px solid rgb(255, 94, 0);
+  border-radius: 20px;
+  color: white;
+}
+
+form input[type=file]:hover{
+  box-sizing: border-box;
+
+  border:2px solid rgb(241, 157, 0);
+
+
+}
+input[type=text], input[type=password],input[type=date],input[type=number],input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  border: 2px solid rgb(0, 128, 117);
+  box-sizing: border-box;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+select.form-control{
+  width: 100%;
+  border:2px solid rgb(214, 1, 132);
+  border-radius: 30px;
+}
+
+.name{
+  text-transform:uppercase;
+}
+
+hr {
+ border: 1px solid rgb(178, 43, 43);
+
+}
+
+.hero-text h1{
+  font-family: 'Sunflower', sans-serif;
+ 
+  color: white;
+  text-transform: uppercase;
+}
+
+.home{
+  padding-left: 4px;
+  padding-top: 4px;
+}
+
+.animate-pop-in{
+  animation: pop-in .6s ease-in-out forwards;
+  opacity: 0;
+}
+
+
+
+@keyframes fade-slide-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-4rem);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes pop-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-4rem) scale(.8);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
